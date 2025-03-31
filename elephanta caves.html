@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephanta Caves - Tourist Guide</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1, h2,  {
+            color: #2c3e50;
+        }
+        h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+        p, ul {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+            text-align: left;
+            margin: 10px auto;
+            width: 90%;
+        }
+        .swiper {
+            width: 50%;
+            height: 10%;
+            text-align: center;
+            position: relative;
+        }
+        .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .swiper-slide img {
+            width: 30%;
+            height: 10%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+.swiper-button-next, .swiper-button-prev {
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border-radius: 50%;
+        font-size: 15px;
+    }
+
+.swiper-button-prev {
+            left: 500px;
+        }
+        .swiper-button-next {
+            right: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Elephanta Caves</h1>
+        
+      
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="elephanta1.jpg" alt="Elephanta Caves"></div>
+                <div class="swiper-slide"><img src="elephanta2.jpg" alt="Trimurti Sculpture"></div>
+                <div class="swiper-slide"><img src="elephanta3.jpg" alt="Cave Entrance"></div>
+            </div>
+            <div class="swiper-button-prev">&#10094;</div>
+            <div class="swiper-button-next">&#10095;</div>
+        </div>
+
+      <br><br><br>  
+        <h2>Location</h2>
+        <p>Elephanta Caves are located on Elephanta Island, about 11 km from Mumbai, Maharashtra.</p>
+        
+        <h2>How to Go</h2>
+        <ul>
+            <li><strong>By Ferry:</strong> Take a ferry from the Gateway of India, Mumbai. The ride takes around one hour.</li>
+        </ul>
+        
+        <h2>Requirements</h2>
+        <ul>
+            <li>Comfortable walking shoes for exploring caves.</li>
+            <li>Water bottles and light snacks.</li>
+            <li>Cash for entry tickets and shopping.</li>
+        </ul>
+        
+        <h2>Food Junctions Nearby</h2>
+        <ul>
+            <li>Cannon Pav Bhaji – Famous for local street food.</li>
+            <li>Elephanta Island Cafeteria – Offers snacks and beverages.</li>
+        </ul>
+        
+        <h2>Review</h2>
+        <p>Elephanta Caves is a UNESCO World Heritage Site known for its rock-cut temples dedicated to Lord Shiva. Best visited during winter for pleasant weather.</p>
+        
+        <h2>Suitable Places for Current Season</h2>
+        <ul>
+            <li>Great Cave – Main attraction featuring Trimurti sculpture.</li>
+            <li>Stupa Hill – A trekking spot offering scenic views.</li>
+        </ul>
+        
+        <h2>Description</h2>
+        <p>Elephanta Caves showcase ancient Indian art and culture with intricate carvings dating back to the 5th century. The island is a serene getaway from Mumbai's busy life, offering history, spirituality, and adventure.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+        });
+    </script>
+</body>
+</html>
